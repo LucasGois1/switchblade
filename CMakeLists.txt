@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.12)
+project(SwitchBlade)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_BUILD_TYPE Debug)
+file(GLOB SOURCE_FILES CONFIGURE_DEPENDS "src/*.h" "src/*.cpp")
+add_executable(entry ${SOURCE_FILES})
