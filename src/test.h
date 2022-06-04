@@ -1,7 +1,9 @@
 #ifndef TEST_H
 #define TEST_H
 
-void your_name(char * name);
+using std::string;
+
+void your_name(const string& name);
 
 
 #endif

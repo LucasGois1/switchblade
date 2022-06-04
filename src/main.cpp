@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     cout << "Hello, World!" << endl;
-    char * name;
+    string name;
 
     cin >> name;
 
