@@ -1,14 +1,13 @@
 #include <iostream>
-#include "test.h"
+#include "include/lexer.h"
 
-using namespace std;
+using std::string;
 
-int main() {
-    cout << "Hello, World!" << endl;
-    string name;
+int main(int argc, char * argv[]) {
 
-    cin >> name;
+    string sentence = "String greetings = \"Hello World\";\n print(variable);\0";
 
-    your_name(name);
+    analyze(sentence);
+
     return 0;
 }
