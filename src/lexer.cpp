@@ -52,7 +52,7 @@ _lexer* advance(_lexer* lexer) {
 }
 
 _token* build_next_token(_lexer* lexer) {
-    if (lexer->actual_caractere == '\0' || lexer->actual_caractere == ' ') {
+    if (lexer->actual_caractere == ' ') {
         ignore_spaces(lexer);
     }
 
